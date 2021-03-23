@@ -24,7 +24,9 @@ $(window).on('scroll', function () {
 	}
 });
 
-
+	AOS.init({
+		duration: 1200,
+	});
 
 // mainSlider
 function mainSlider() {
