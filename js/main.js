@@ -69,26 +69,23 @@ function mainSlider() {
 mainSlider();
 
 
-// owlCarousel
-$('.owl-carousel').owlCarousel({
-    loop:true,
-    margin:0,
-	items:1,
-	navText:['<i class="fa fa-angle-left"></i>','<i class="fa fa-angle-right"></i>'],
-    nav:true,
-	dots:false,
-    responsive:{
-        0:{
-            items:1
-        },
-        767:{
-            items:3
-        },
-        992:{
-            items:5
-        }
-    }
-})
+	$('.dot-list').owlCarousel({
+		loop:true,
+		autoplayHoverPause:true,
+		autoplay:true,
+		dots: true,
+		smartSpeed:1000,
+		responsive:{
+			0:{
+				items:1
+			},
+			600:{
+				items:2
+			},
+			1000:{
+				items:3
+			}
+		}});
 
 
 /* magnificPopup img view */

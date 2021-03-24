@@ -1,7 +1,16 @@
 /* Normal desktop :1200px. */
-@media (min-width: 1200px) and (max-width: 1500px) {
+@media (min-width: 1200px) {
 
-
+    .case-study{
+        padding: 125px 0 80px 0;
+        overflow: hidden;
+        height: 765px;
+    }
+    .dot-list{
+        padding-top: 20px;
+        position: absolute;
+        right: -196px;
+    }
 }
 
 
