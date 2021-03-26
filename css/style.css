@@ -259,7 +259,7 @@ label {
 
 /* scrollUp */
 #scrollUp {
-	background: #7DBA2F;
+	background: #de994a;
 	height: 35px;
 	width: 35px;
 	right: 50px;
@@ -662,14 +662,16 @@ label {
 .contact-area{
 	padding: 200px 0 80px 0;
 }
+.contact-img{position: relative}
+.contact-img img{width: 100%}
 .contact-img span img{
-	width: 220px;
+	width: 180px;
 	position: absolute;
-	right: -30px;
-	top: -70px;
+	right: -60px;
+	top: -60px;
 }
 .contact-top-m{margin-top: 118px;}
-.contact-img img{width: 100%}
+
 .contact-form h1{
 	font-style: normal;
 	font-weight: normal;
@@ -715,7 +717,7 @@ label {
 	border-radius: 6px;
 }
 form {
-	width: 95%;
+	width: 100%;
 
 }
 label {
@@ -790,6 +792,27 @@ button:hover {
 	background: #F2994A;
 	color: #ffffff;
 }
+
+.address-area{
+	padding: 40px 0 80px 0;
+}
+.address-area .single-widget{
+    margin-top: 45px;
+}
+.address-area .single-widget h2 {
+	font-size: 20px;
+	font-weight: 700;
+	text-transform: capitalize;
+	color: #000;
+	margin-bottom: 30px;
+}
+.address-area .single-widget ul li{
+	font-style: normal;
+	font-weight: normal;
+	font-size: 18px;
+	line-height: 32px;
+	color: #868686;
+}
 /*-------------Footer Area-----------*/
 .footer-area {
 	background-color: #1B2022;
@@ -808,12 +831,7 @@ button:hover {
 	padding: 120px 0 90px 0;
 }
 
-.single-widget h2 {
-	font-size: 20px;
-	font-weight: 700;
-	text-transform: capitalize;
-	color: #fff;
-}
+
 
 .single-widget .border-right {
 	border-right: 2px solid #fff
