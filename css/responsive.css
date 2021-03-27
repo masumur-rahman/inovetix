@@ -16,6 +16,8 @@
         margin-top: 20px;
         margin-left: -353px;
     }
+    .margin-left{margin-left: 150px;margin-top: 170px}
+    .margin-right{margin-right: 30px;margin-top: 150px}
 }
 
 
@@ -28,20 +30,16 @@
  
 /* Tablet desktop :768px. */
 @media (min-width: 768px) and (max-width: 991px) {
-
+    .common-text-area h3{
+        margin-top: 50%;
+    }
 
 }
 
- 
-/* small mobile :320px. */
-@media (max-width: 767px) {
-
- 
-}
  
 /* Large Mobile :480px. */
 @media only screen and (min-width: 574px) and (max-width: 768px) {
-/*.container {width:450px}*/
+
     .contact-img span img {
       display: none;
     }
@@ -63,17 +61,39 @@
         margin: auto 18px;
         padding-bottom: 25px;
     }
-
+    .contact-img img {
+        padding-top: 30px;
+    }
+    br{display: none}
+    .common-text-area h3{
+        margin-top: 30%;
+        font-size: 35px;
+    }
+    .common-text-area h2{
+        font-size: 40px;
+    }
+    .case-study-section-one {
+        padding: 0px 0 0px 0;
+    }
  
 }
 @media (min-width: 320px) and (max-width: 574px){
+    .common-text-area h2{
+        font-size: 45px;
+    }
  .header-bg { height: 1100px;}
+
+    .about-content-one h1{font-size: 40px}
     .banner-img img.phone {padding-top: 0px;}
     .banner-img span img {
         top: 13px;
         right: 93px;
         z-index: 0;
         width: 40%;
+    }
+    br{display: none}
+    .contact-img img {
+     padding-top: 30px;
     }
     .heading-1 h1 {font-size: 39px;line-height: 52px;}
     .margin-top-small {
@@ -87,5 +107,11 @@
     }
     .mt-sm-5{margin-top: 20px}
     .logo{    padding-top: 15px;}
+    .common-text-area h3{
+        margin-top: 20px;
+    }
+    .case-study-section-one {
+        padding: 0px 0 0px 0;
+    }
 
 }
