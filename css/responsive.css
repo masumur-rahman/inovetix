@@ -1,6 +1,10 @@
 /* Normal desktop :1200px. */
 @media (min-width: 1200px) {
-
+    .case-study-2 {
+        padding: 0px 0 0px 0;
+        overflow: hidden;
+        height: 602px;
+    }
     .case-study{
         padding: 125px 0 80px 0;
         overflow: hidden;
