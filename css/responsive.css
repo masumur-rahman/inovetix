@@ -1,5 +1,36 @@
+/* Large desktop :1200px. */
+@media(min-width: 1921px) and (max-width: 2560px){
+    .container {
+        max-width: 1280px;
+    }
+    .dot-list{
+        padding-top: 20px;
+        position: absolute;
+        right: 0;
+    }
+    .case-study{
+        padding: 235px 0 80px 0;
+        overflow: hidden;
+        height: 1249px;
+    }
+    .portfolio-text {
+        padding: 110px 40px;
+    }
+    .portfolio-text img {
+        width: 119px !important;
+    }
+    .portfolio-text h5 {
+
+        font-size: 35px;
+        line-height: 100px;
+    }
+    .portfolio-text p {
+        font-size: 26px;
+        line-height: 48px;
+    }
+}
 /* Normal desktop :1200px. */
-@media (min-width: 1200px) {
+@media (min-width: 1200px) and (max-width: 1920px){
     .case-study-2 {
         padding: 0px 0 0px 0;
         overflow: hidden;
@@ -13,7 +44,7 @@
     .dot-list{
         padding-top: 20px;
         position: absolute;
-        right: -196px;
+        right: -20%;
     }
     .owl-carousel .owl-dots {
         text-align: center;
