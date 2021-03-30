@@ -2,14 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c299d90e-3af2-4f05-a859-cb932b3602c9" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/img/case-study/android-app.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/case-study/case-study-img.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/case-study/feature-hilight.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/case-study/ios-app.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/case-study-details.html" beforeDir="false" afterPath="$PROJECT_DIR$/case-study-details.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/responsive.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/responsive.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/style.css" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -153,17 +146,6 @@
               <item name="inovetix" type="b2602c69:ProjectViewProjectNode" />
               <item name="inovetix" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="inovetix" type="b2602c69:ProjectViewProjectNode" />
-              <item name="inovetix" type="462c0819:PsiDirectoryNode" />
-              <item name="img" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="inovetix" type="b2602c69:ProjectViewProjectNode" />
-              <item name="inovetix" type="462c0819:PsiDirectoryNode" />
-              <item name="img" type="462c0819:PsiDirectoryNode" />
-              <item name="case-study" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -209,16 +191,15 @@
       <option name="presentableId" value="Default" />
       <updated>1616737753057</updated>
       <workItem from="1616737754610" duration="25238000" />
-      <workItem from="1616914436906" duration="2464000" />
+      <workItem from="1616914436906" duration="2586000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="27702000" />
+    <option name="totallyTimeSpent" value="27824000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25263953" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
