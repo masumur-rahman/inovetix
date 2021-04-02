@@ -302,7 +302,7 @@ label {
 	background-image: url('../img/banner-bg.png');
 	background-position: center center;
 	background-size: cover;
-	height: 680px;
+	height: 806px;
 	width: 100%
 }
 .transparent-header{
@@ -443,7 +443,7 @@ label {
 	width: 51%;
 }
 .banner-img img.phone {
-	width: 60%;
+	/*width: 60%;*/
 	display: block;
 	padding-top: 145px;
 	z-index: 0;
@@ -685,7 +685,7 @@ label {
 	padding: 200px 0 80px 0;
 }
 .contact-img{position: relative}
-.contact-img img{width: 100%}
+/*.contact-img img{width: 100%}*/
 .contact-img span img{
 	width: 180px;
 	position: absolute;
